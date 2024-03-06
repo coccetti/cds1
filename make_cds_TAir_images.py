@@ -1,4 +1,9 @@
-import sys
+#!/usr/bin/env python
+
+"""make_cds_TAir_images.py: Query cdstoolbox for images."""
+
+__author__      = "FC"
+
 import os
 import time
 import numpy as np
