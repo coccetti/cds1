@@ -1,0 +1,7 @@
+data/
+*.nc
+*.png
+*.mp4
+cds_images/
+video/
+remove/
