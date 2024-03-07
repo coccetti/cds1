@@ -29,13 +29,13 @@ def application():
       'variable': '2m_temperature',
       'product_type': 'reanalysis',
       'year': my_year,
-      'month': '08',
-      'day': '15',
+      'month': '02',
+      'day': '01',
       'time': '12:00',
       'grid': ['3', '3'],
     }
   )
-  my_title = "mid-August " + my_year
+  my_title = "February 1, " + my_year
   fig = ct.map.plot(data,title=my_title)
   return fig
 
